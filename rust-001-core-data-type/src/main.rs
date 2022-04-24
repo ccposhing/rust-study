@@ -1,14 +1,12 @@
-#[warn(dead_code)]
 //use std::mem;
 fn main() {
+    print!("hello world !")
     //operators();
-    let mut a = 32 ;
+    //core_data_type();
 
-    let a = 42 ;
-    println!("a = {}", a);
 }
-/*
 
+/*
 fn operators(){
     // arithmetic
     let mut a = 2 * 3 + 1 ;
@@ -57,11 +55,6 @@ fn operators(){
 
     println!("x equals y ? {}" , x==y);
 }
-
-
-
-
-
 
 fn core_data_type() {
     // unsigned u8: 0..255  //8bits
