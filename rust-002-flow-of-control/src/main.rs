@@ -1,7 +1,19 @@
+#![allow(dead_code)]
+use std::mem;
+
 fn main() {
     //println!("Hello, world!");
     // if_flow();
-    loop_flow();
+    //loop_flow();
+
+    let mut my_num = 100;
+    {
+        my_num = 333;
+        println!("{}",my_num);
+
+    }
+    println!("{}", my_num);
+
 }
 
 fn loop_flow() {
