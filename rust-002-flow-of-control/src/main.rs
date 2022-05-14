@@ -10,9 +10,12 @@ fn main() {
     {
         my_num = 333;
         println!("{}",my_num);
-
     }
     println!("{}", my_num);
+
+    let a: i8 = 10;
+    
+    println!("{}, and tooks {} bits", a, mem::size_of_val(&a));
 
 }
 

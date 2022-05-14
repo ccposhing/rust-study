@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "rust-core-data-001"
+name = "rust-001-core-data-type"
 version = "0.1.0"
